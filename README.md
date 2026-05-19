@@ -128,7 +128,6 @@ The project trains two model families. Logistic Regression serves as a baseline 
 
 | Model | Purpose | Expected Use |
 |---|---|---|
-| Logistic Regression | Baseline model | Establish minimum viable benchmark |
 | XGBoost | Main model | Capture nonlinear interactions and improve predictive performance |
 
 Evaluation should include recall, F1-score, precision, ROC-AUC, and a confusion matrix. Recall should receive special attention because the business cost of missing a risky delayed flight may be higher than the cost of flagging some flights that ultimately arrive on time.
