@@ -124,7 +124,7 @@ Leakage-prone fields such as actual arrival time, actual elapsed time, arrival d
 
 ## Model Training and Evaluation
 
-The project trains two model families. Logistic Regression serves as a baseline because it is simple, interpretable, and useful for benchmarking. XGBoost is the main model because it is well suited for structured tabular data and is supported by SageMaker training workflows.
+The project trains with XGboost Model.XGBoost is the main model because it is well suited for structured tabular data and is supported by SageMaker training workflows.
 
 | Model | Purpose | Expected Use |
 |---|---|---|
